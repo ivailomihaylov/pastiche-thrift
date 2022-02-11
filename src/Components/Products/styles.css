@@ -1,0 +1,6 @@
+.products-container {
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/neon_mirror.png");
+    background-size: cover;
+    color: white;
+}

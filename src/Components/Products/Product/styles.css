@@ -1,0 +1,42 @@
+.product-grid-image {
+    border-radius: 180px 180px 0 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.product-grid-image:hover {
+    transform: scale(0.97);
+}
+
+.product-grid-title {
+    cursor: pointer;
+}
+
+.add-to-cart-button {
+    position: absolute !important;
+    right: 0;
+    bottom: 5.5rem;
+    opacity: 0;
+    border: 1px solid #eb2027;
+    background: #eb2027;
+    border-radius: 30px;
+    padding: 8px 10px;
+    transition: all 0.2s;
+}
+
+.add-to-cart-button:hover {
+    box-shadow: 0px 0px 15px #eb2027;
+    transform: scale(1.2);
+    border: 1px solid #eb2027;
+}
+
+.add-to-cart-button img {
+    transition: all 0.2s;
+    width: 25px;
+}
+
+.product-grid-container:hover .add-to-cart-button {
+    opacity: 1;
+    right: 1rem;
+    bottom: 5.5rem;
+}
